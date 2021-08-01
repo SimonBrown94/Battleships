@@ -277,3 +277,5 @@ def check_attacks(player, x, y):
     if [x, y] in player.remaining_attacks:
         player.attack_stack.append([x, y])
         player.remaining_attacks.remove([x, y])
+
+#testcomment
